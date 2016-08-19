@@ -1,0 +1,6 @@
+@echo off
+
+SET VIMRC_INSTALL_LOCATION=%HOMEDRIVE%%HOMEPATH%
+
+@copy _vimrc %VIMRC_INSTALL_LOCATION%
+@echo "Installed _vimrc file to %VIMRC_INSTALL_LOCATION%"
